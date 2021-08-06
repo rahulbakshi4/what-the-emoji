@@ -40,6 +40,17 @@ input {
   font-size: 3rem;
   color: #ffe66d;
 }
+.common {
+  margin: 50px 0px;
+  font-size: 2rem;
+  color: #ffe66d;
+}
+.common-emoji {
+  display: inline;
+  padding: 1.5rem;
+  cursor: pointer;
+  font-size: 2rem;
+}
 @media screen and (max-width: 600px) {
   .head {
     font-size: 3rem;
@@ -50,8 +61,7 @@ input {
   .meaning {
     margin-top: 50px;
   }
-  body,
-  html {
-    overflow: hidden;
+  .common-emoji {
+    padding: 1rem;
   }
 }
